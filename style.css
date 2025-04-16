@@ -1,0 +1,1055 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.loginpage {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.parent {
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    background-image: url(./beautiful-shining-stars-night-sky_181624-622.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 5px;
+    /* padding: 5px 5px; */
+    /* padding:10px; */
+}
+
+.logo {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    /* margin-right: 15    0px; */
+    margin-left: 10px;
+    /* margin-top: 5px; */
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    border: 1px solid white;
+    /* margin-top: 5px; */
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    /* box-shadow: 0 1.5625rem 2.8125rem rgba(47, 46, 65, 0.075);
+    transition: box-shadow 0.4s ease;
+    backdrop-filter: blur(3px); */
+}
+
+.navelement {
+    color: white;
+
+}
+
+.navelementsarrangement {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.visual {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(169, 22, 149);
+    /* display: none;/ */
+    background-image: url(./ChatGPT\ Image\ Mar\ 31\,\ 2025\,\ 12_20_14\ PM.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 60px;
+
+}
+
+.news {
+    width: 100%;
+    height: 100%;
+    background-color: palevioletred;
+    /* display: none; */
+}
+
+.future {
+    width: 100%;
+    height: 100%;
+    background-color: plum;
+    /* display: none; */
+    /* padding: 10px; */
+}
+
+.menubar {
+    color: white;
+    display: none;
+}
+
+.menubar1 {
+    display: none;
+}
+
+/* .aclick,.aboutus:active{
+    display: block;
+    
+
+} */
+
+/* .info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    background-color: black;
+}
+.information{
+
+} */
+.undernav {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.caption {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: 1px double white;
+    border-radius: 50px;
+}
+
+.momentimage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: end; */
+    /* margin-left: 30px; */
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: plum;
+    /* margin-top: 20px; */
+    border-radius: 10px;
+    overflow: hidden;
+    /* border: 1px solid white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.carosaulbox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    animation: move 6s infinite linear;
+
+}
+
+@keyframes move {
+
+    0%,
+    10% {
+        transform: translate(0);
+    }
+
+    20%,
+    30% {
+        transform: translate(-100%);
+    }
+
+    40%,
+    50% {
+        transform: translate(-200%);
+    }
+
+    60%,
+    70% {
+        transform: translate(-300%);
+    }
+
+    80%,
+    90% {
+        transform: translate(-400%);
+    }
+
+    100% {
+        transform: translate(-500%);
+    }
+
+}
+
+.imagecarosaul {
+    width: 100%;
+}
+
+.imagecarosaul img {
+    width: 300px;
+    height: 300px;
+}
+
+/* footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+ } */
+.contentofhomepage {
+    margin-top: 20px;
+
+}
+
+.homeimage1 {
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+
+.homeimage1content {
+    color: white;
+    /* text-align: i; */
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 80px;
+    max-width: 1400px;
+
+}
+
+.timeline {
+    height: 400px;
+    width: 1000px;
+    /* border: 1px solid white;  */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.merge {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.heading1 {
+    color: white;
+    font-size: 18px;
+}
+
+.hsub1 {
+    color: white;
+    font-size: 18px;
+}
+
+.timelineelements {
+    color: white;
+}
+
+.hpara1 {
+    font-size: 18px;
+    color: white;
+    margin-left: 20px;
+    /* margin-left: 25px; */
+}
+
+.footer {
+    height: 100%;
+    width: 100%;
+    /* padding: 10px; */
+}
+
+.footerhead {
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.f1 {
+    height: 160px;
+    width: 300px;
+    /* border: 1px solid white; */
+}
+
+.f2 {
+    height: 160px;
+    width: 300px;
+    /* border: 1px solid white; */
+
+}
+
+.f3 {
+    height: 160px;
+    width: 300px;
+    /* border: 1px solid white; */
+}
+
+.f4 {
+    height: 160px;
+    width: 300px;
+    /* border: 1px solid white; */
+}
+
+.orderlist {
+    color: white;
+
+}
+
+.footele {
+    margin-top: 3px;
+    color: white;
+}
+
+.atag {
+    color: white;
+}
+
+.horizontal {
+    display: none;
+}
+
+.parent2 {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container {
+    height: 250px;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.container1 {
+    height: 520px;
+    width: 350px;
+    border: 5px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    /* padding: 10px; */
+}
+
+.visualcarosual {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    animation: vmove 10s infinite linear;
+
+}
+
+@keyframes vmove {
+
+    0%,
+    5% {
+        transform: translateX(0);
+    }
+
+    15%,
+    20% {
+        transform: translateX(-100%);
+    }
+
+    25%,
+    30% {
+        transform: translateX(-200%);
+    }
+
+    35%,
+    40% {
+        transform: translateX(-300%);
+    }
+
+    45%,
+    50% {
+        transform: translateX(-400%);
+    }
+
+    55%,
+    60% {
+        transform: translateX(-500%);
+    }
+
+    65%,
+    70% {
+        transform: translateX(-600%);
+    }
+
+    75%,
+    80% {
+        transform: translateX(-700%);
+    }
+
+    85%,
+    90% {
+        transform: translateX(-800%);
+    }
+
+    95%,
+    100% {
+        transform: translateX(-900%);
+    }
+}
+
+.visualimagecarosaul {
+    width: 100%;
+    /* border: 1px ; */
+    /* border-radius: 5px; */
+}
+
+.visualimagecarosaul img {
+    height: 520px;
+    width: 350px;
+}
+
+.visualcontent {
+    color: white;
+    margin-left: 20px;
+}
+
+.container:hover {
+    height: 260px;
+    width: 360px;
+    transition: all 0.5s linear;
+    /* transition-property: all; */
+    /* font-size: 20px; */
+}
+
+.news {
+    background-image: url(./news.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 60px;
+}
+
+.nimg {
+    width: 100%;
+    height: 500px;
+    /* background-color: aqua; */
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.newsimage1 {
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgb(42, 208, 153);
+}
+
+.newsimage2 {
+    height: 250px;
+    border-radius: 10px;
+    width: 350px;
+    background-color: aquamarine;
+}
+
+.newsimage3 {
+    height: 400px;
+    width: 350px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.nimage {
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.nimage1 {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.marquee {
+    height: 50px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.mcontent {
+    color: white;
+    font-size: 20px;
+}
+
+.newscon {
+    height: 530px;
+    width: 100%;
+    border: 1px solid white;
+    color: white;
+    padding-left: 20px;
+}
+
+.parent3 {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+
+
+}
+
+.nfirst {
+    font-size: 18px;
+    text-align: start;
+    margin-bottom: 5px;
+    margin-top: 10px
+}
+
+.nul {
+    margin-left: 30px;
+}
+
+.parent4 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./futurebg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 60px;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-bottom: 15px; */
+
+}
+
+.fcontent {
+    height: 800px;
+    width: 100%;
+    border: 1px solid white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.finfo {
+    height: 690px;
+    width: 500px;
+    /* border: 1px solid white; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.finfo1 {
+    height: 690px;
+    width: 500px;
+    /* border: 1px solid white; */
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    /* hidden:overflow; */
+
+}
+
+/* .info1 img{
+    height: 200px;
+    width: 200px;
+} */
+.finfo1 div {
+    /* height: 300px;
+    width: 300px; */
+    background-color: transparent;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solarmoment {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    /* background-color: blue; */
+    padding-top: 60px;
+    background-image: url(./motion.png);
+}
+
+.smove {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+    overflow: hidden;
+}
+
+.scontainer {
+    font-size: 6px;
+    width: 40em;
+    height: 40em;
+    position: relative;
+}
+
+.smove img {
+
+    height: 130%;
+    width: 130%;
+
+}
+
+.sun {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15em;
+    left: 15em;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    box-shadow: 0 0 3em rgb(255, 128, 0);
+    animation: orbit 50s linear infinite;
+}
+
+.mercury,
+.venus,
+.earth,
+.moon,
+.mars,
+.jupiter,
+.saturn,
+.uranus,
+.neptune,
+.pluto {
+    position: absolute;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+    border-width: 0.1em 0.1em 0 0;
+    border-radius: 50%;
+}
+
+.mercury {
+    top: 12.5em;
+    left: 12.5em;
+    width: 15em;
+    height: 15em;
+    animation: orbit 68.7s linear infinite;
+}
+
+.venus {
+    top: 10em;
+    left: 10em;
+    width: 20em;
+    height: 20em;
+    animation: orbit 48.7s linear infinite;
+}
+
+.earth {
+    top: 6em;
+    left: 6em;
+    width: 28em;
+    height: 28em;
+    animation: orbit 36.5s linear infinite;
+}
+
+.moon {
+    top: 2em;
+    right: -1em;
+    width: 7em;
+    height: 7em;
+    animation: orbit 2.7s linear infinite;
+}
+
+.mars {
+    top: 2em;
+    left: 2.5em;
+    width: 36em;
+    height: 36em;
+    animation: orbit 26.5s linear infinite;
+}
+
+.jupiter {
+    top: -2em;
+    left: -2em;
+    width: 45em;
+    height: 45em;
+    animation: orbit 21s linear infinite;
+}
+
+.saturn {
+    top: -7em;
+    left: -7em;
+    width: 55em;
+    height: 55em;
+    animation: orbit 17s linear infinite;
+}
+
+.uranus {
+    top: -12em;
+    left: -12em;
+    width: 65em;
+    height: 65em;
+    animation: orbit 19s linear infinite;
+}
+
+.neptune {
+    top: -17em;
+    left: -17em;
+    width: 75em;
+    height: 75em;
+    animation: orbit 15s linear infinite;
+}
+
+.pluto {
+    top: -22em;
+    left: -22em;
+    width: 85em;
+    height: 85em;
+    animation: orbit 18s linear infinite;
+}
+
+.mercury::before,
+.venus::before,
+.earth::before,
+.moon::before,
+.mars::before,
+.jupiter::before,
+.saturn::before,
+.uranus::before,
+.neptune::before,
+.pluto::before {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    animation: orbit 30s linear infinite;
+}
+
+.mercury::before {
+    top: 1.5em;
+    right: 0.8em;
+    width: 2em;
+    height: 2em;
+    /* background-color: gray; */
+    background-image: url(./mercury.png);
+    background-size: cover;
+}
+
+.venus::before {
+    top: 2em;
+    right: 2em;
+    width: 2em;
+    height: 2em;
+    /* background-color: goldenrod; */
+    background-image: url(./venus.png);
+    background-size: cover;
+}
+
+.earth::before {
+    top: 3em;
+    right: 0em;
+    width: 5em;
+    height: 5em;
+    /* background-color: dodgerblue; */
+    background-image: url(./earth.png);
+    background-size: cover;
+}
+
+.moon::before {
+    top: 0.8em;
+    right: 0.2em;
+    width: 1.2em;
+    height: 1.2em;
+    /* background-color: lightgray; */
+    background-image: url(./moon.png);
+    background-size: cover;
+}
+
+.mars::before {
+    top: 5em;
+    right: 3em;
+    width: 3em;
+    height: 3em;
+    /* background-color: orangered; */
+    background-image: url(./mars.png);
+    background-size: cover;
+}
+
+.jupiter::before {
+    top: 6em;
+    right: 3em;
+    width: 5em;
+    height: 5em;
+    /* background-color: burlywood; */
+    background-image: url(./jupiter.png);
+    background-size: cover;
+}
+
+.saturn::before {
+    top: 7.5em;
+    right: 5em;
+    width: 4.5em;
+    height: 4.5em;
+    /* background-color: tan; */
+    background-image: url(./saturn.png);
+    background-size: cover;
+}
+
+.uranus::before {
+    top: 9em;
+    right: 6.5em;
+    width: 4em;
+    height: 4em;
+    /* background-color: lightblue; */
+    background-image: url(./uranus.png);
+    background-size: cover;
+}
+
+.neptune::before {
+    top: 10em;
+    right: 8em;
+    width: 4em;
+    height: 4em;
+    /* background-color: blue; */
+    background-image: url(./neptune.png);
+    background-size: cover;
+}
+
+.pluto::before {
+    top: 11em;
+    right: 10em;
+    width: 4em;
+    height: 4em;
+    /* background-color: sandybrown; */
+    background-image: url(./pluto.png);
+    background-size: cover;
+}
+
+
+@keyframes orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* .planets{
+        height: 150px;
+        width: 150px;
+    } */
+   
+.blackhole{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+:root {
+    --white: #ffffff;
+    --yellow: #f1edb6;
+    --black: #000000;
+    }
+    
+    /* body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    } */
+/*     
+    *, *:before, *:after { box-sizing: border-box; }
+    
+    *:before, *:after { position: absolute; }
+     */
+    .space {
+    width: 100vw;
+    /* height: 100vh; */
+    background: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .gargantua {
+    width: 90vmax;
+    height: 60vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: rotate(-10deg);
+    filter: sepia(0.5);
+    }
+    .gargantua > div {
+    position: absolute;
+    }
+    
+    
+    .bot-photon-ring {
+    width: 18vmax;
+    height: 10vmax;
+    border-radius: 1vmax 1vmax 20vmax 20vmax;
+    box-shadow: 0 0 5px 2px var(--black);
+    top: 28.5vmax;
+    border: 2px solid var(--white);
+    border-top: 0;
+    background: var(--black);
+    margin-left: 0.75vmax;
+    box-shadow: 0 0 5px 2px var(--black), 0px 0px 5px 2px var(--yellow), 0px -3px 10px -3px var(--yellow) inset;
+    }
+    
+    .image-disk {
+    width: 22vmax;
+    height: 22vmax;
+    border-radius: 100%;
+    top: 19vmax;
+    border: 2vmax solid var(--white);
+    box-shadow: 0 0px 15px 3px var(--yellow), 0 0px 5px 2px var(--yellow) inset;
+    }
+    .image-disk:before, .image-disk:after {
+    content: "";
+    position: absolute;
+    left: -5.365vmax;
+    top: 3.85vmax;
+    width: 3.5vmax;
+    height: 4.5vmax;
+    border-radius: 0px 0px 34px 10px;
+    transform: rotate(23deg);
+    box-shadow: 16px 2px 0px 1px white;
+    }
+    .image-disk:after {
+    left: 19.885vmax;
+    transform: rotateY(180deg) rotateZ(23deg);
+    }
+    .image-disk-lines {
+    width: 22vmax;
+    height: 22vmax;
+    border-radius: 100%;
+    background:
+    radial-gradient(
+    circle at 50% 50%,
+    transparent, transparent 9.25vmax,
+    var(--yellow) 9.5vmax, var(--yellow) 9.55vmax,
+    var(--white) 9.55vmax, var(--white) 9.95vmax,
+    var(--yellow) 9.95vmax, var(--yellow) 10.05vmax,
+    var(--white) 10.05vmax, var(--white) 10.35vmax,
+    var(--yellow) 10.35vmax, var(--yellow) 10.42vmax,
+    var(--white) 10.42vmax, var(--white) 10.75vmax,
+    var(--yellow) 10.75vmax, var(--yellow) 10.79vmax,
+    var(--white) 10.79vmax, var(--white) 10.95vmax,
+    red 22vmax
+    )
+    ;
+    }
+    
+    .accretion-disk {
+    background:
+    radial-gradient(
+    ellipse at 49.5% 40%,
+    transparent, transparent 11.15vmax,
+    var(--white) 11.15vmax, var(--yellow) 11.15vmax,
+    var(--yellow) 11.2vmax, var(--white) 11.2vmax,
+    var(--white) 12.5vmax, var(--yellow) 12.5vmax,
+    var(--yellow) 12.65vmax, var(--white) 12.65vmax,
+    var(--white) 13.5vmax, var(--yellow) 13.5vmax,
+    var(--yellow) 13.55vmax, var(--white) 13.55vmax,
+    var(--white) 14.45vmax, var(--yellow) 14.45vmax,
+    var(--yellow) 14.55vmax, var(--white) 14.55vmax,
+    var(--white) 15.5vmax, var(--yellow) 15.5vmax,
+    var(--yellow) 15.65vmax, var(--white) 15.65vmax,
+    var(--white) 16.5vmax, var(--yellow) 16.5vmax,
+    var(--yellow) 16.65vmax, var(--white) 16.65vmax,
+    var(--white) 17.6vmax, var(--yellow) 17.6vmax,
+    var(--yellow) 17.65vmax, var(--white) 17.65vmax,
+    var(--white) 18.25vmax, var(--yellow) 18.25vmax,
+    var(--yellow) 18.35vmax, var(--white) 18.35vmax,
+    var(--white) 19.15vmax, var(--yellow) 19.15vmax,
+    var(--yellow) 19.35vmax, var(--white) 19.35vmax,
+    var(--white) 19.95vmax, var(--yellow) 19.95vmax,
+    var(--yellow) 20.05vmax, var(--white) 20.05vmax,
+    var(--white) 20.75vmax, var(--yellow) 20.75vmax,
+    var(--yellow) 20.85vmax, var(--white) 20.85vmax,
+    var(--white) 21.5vmax, var(--yellow) 21.5vmax,
+    var(--yellow) 21.55vmax, var(--white) 21.55vmax,
+    var(--white) 22.5vmax, var(--yellow) 22.5vmax,
+    var(--yellow) 22.65vmax, var(--white) 22.65vmax,
+    var(--white) 23.45vmax, var(--yellow) 23.45vmax,
+    var(--yellow) 23.52vmax, var(--white) 23.55vmax
+    ),
+    radial-gradient(
+    ellipse at 49.5% 37%,
+    var(--black), var(--black) 9.25vmax,
+    var(--white) 9.5vmax, var(--white)
+    )
+    ;
+    width: 54vmax;
+    height: 6vmax;
+    border-radius: 100%;
+    top: 28.5vmax;
+    box-shadow: 0 0 3px 0 var(--white), 0 0px 15px 3px var(--yellow), 0 15px 10px 10px var(--black);
+    }
+    
+    
+    
+    .top-photon-ring {
+    width: 17vmax;
+    height: 9vmax;
+    border-radius: 20vmax 20vmax 1vmax 1vmax;
+    background: var(--black);
+    top: 21.5vmax;
+    box-shadow: 0 5px 0px 2px var(--black), -3px 5px 0px 2px var(--black), 4px 5px 0px 2px var(--black), -2px 3px 3px 0px var(--yellow);
+    }
+    .top-photon-ring:before {
+    content: "";
+    width: 18vmax;
+    height: 3vmax;
+    background: black;
+    left: -0.5vmax;
+    border-radius: 100%;
+    bottom: -7.6vmax;
+    box-shadow: 0 0 1px 1px var(--black);
+    position: relative;
+    display: block;
+    }
+    .top-photon-ring:after {
+    content: "";
+    opacity: 0.75;
+    width: 17vmax;
+    height: 17vmax;
+    border: 2px solid var(--white);
+    border-radius: 100%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(-46deg);
+    left: 0.25vmax;
+    top: 1.25vmax;
+    box-shadow: -5px 5px 5px -4px var(--yellow) inset, 2px -2px 4px -2px var(--yellow);
+    }
