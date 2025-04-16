@@ -266,6 +266,14 @@
 .nli{
     font-size: 15px;
 }
+
+.gargantua{
+    width: 0vmax;
+}
+.accretion-disk{
+    width: 43vmax;
+}
+
 .fcontent{
     height: 100%;
     width: 100%;
